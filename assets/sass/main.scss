@@ -11,56 +11,34 @@ h1 {
   font-size: 50px;
 }
 
-.home {
-  height: 100%;
-  width: 100%;
-  text-align: center;
+.wrapper{
 
-  img {
-    width: 100%;
-    max-width: 300px;
-    margin: 0 auto;
-  }
+}
 
-  .Aligner {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.box-1{
+  background: red;
+}
 
-  .Aligner-item {
-    max-width: 50%;
-  }
+.box-2{
+  background: yellow;
+}
 
-  .menu {
-    ul {
-      li {
-        padding: 10px 15px;
-        display: inline-block;
-        font-family: 'Roboto', sans-serif;
-        font-size: 18px;
-        font-weight: 500;
-      }
-    }
-  }
 
-  .version-num {
-    background: #E8E8E8;
-    border-radius: 4px;
-    padding: 7px 15px;
-    display: inline-block;
-    font-size: 12px;
-    margin: 10px 0 20px;
-  }
+.box-3{
+  background: purple;
+}
 
-  a {
-    text-decoration: none;
-    color: #30395C;
-    transition: all 0.3s ease-in-out;
 
-    &:hover {
-      color: #43D4D6;
-    }
-  }
+.box-4{
+  background: blue;
+}
+
+.box-5{
+  background: orange;
+
+}
+
+.box-6{
+  background: grey;
+
 }
